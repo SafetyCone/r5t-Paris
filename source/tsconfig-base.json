@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "module": "CommonJS",
+        "target": "ES2015",
+        "sourceMap": true,
+        "noImplicitAny": false,
+        "removeComments": true,
+        "preserveConstEnums": true,
+
+        "composite": true,
+        "declaration": true,
+        "declarationMap": true,
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "baseUrl": "." // Specify here, and again in any dependent projects. Here to avoid warnings from tsconfig-paths-webpack-plugin about no baseUrl being specified in all projects. In dependent projects to avoid using the directory containing *this* file for reference paths.
+    }
+}
